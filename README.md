@@ -1,2 +1,2 @@
 # lukec.me
-website for lukec.me
+No, it's not finished.
