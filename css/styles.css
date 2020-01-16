@@ -21,9 +21,14 @@ body {
     font-size: 150%;
 }
 
+a {
+    display: inline-block;
+}
+
 :link {
     text-decoration-color: #85203b;
     text-decoration-style: wavy;
+    
 }
 
 :visited {
