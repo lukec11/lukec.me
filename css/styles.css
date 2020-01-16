@@ -15,19 +15,19 @@ h2 {
 body {
     max-width: 50%;
     margin: auto;
-    background-color: #e2dccd;
-    color: #3290a8;
+    background-color: #e2f3f5;
+    color: #0e153a;
     font-family: 'Open Sans', sans-serif;
     font-size: 150%;
 }
 
 :link {
-    text-decoration-color: #effc00;
+    text-decoration-color: #85203b;
     text-decoration-style: wavy;
 }
 
 :visited {
-    text-decoration-color: white;
+    text-decoration-color: #2a0a13;
     text-decoration-style: wavy;
 
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .fa {
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     width: 50px;
     text-align: center;
