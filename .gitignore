@@ -1,21 +1,13 @@
-#allow font awesome files
+#disallow fonts
 fonts/*
-!fonts/fontawesome/
-fonts/fontawesome/*
-!fonts/Open_Sans/
-!fonts/fontawesome/css
-fonts/fontawesome/css/*
-!fonts/fontawesome/css/fontawesome.min.css
 
 #allow opensans font
-
 !fonts/Open_Sans
 fonts/Open_Sans/*
 !fonts/Open_Sans/OpenSans-Regular.ttf
 !fonts/Open_Sans/OpenSans-Bold.ttf
 
 #allow roboto font
-
 !fonts/Roboto
 fonts/Roboto/*
 !fonts/Roboto/Roboto-Regular.ttf

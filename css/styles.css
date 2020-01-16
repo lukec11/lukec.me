@@ -1,0 +1,51 @@
+/* Custom Fonts */
+@font-face { 
+    font-family: 'Open Sans';
+     src: '../fonts/Open_Sans/OpenSans-Regular.tff' 
+    }
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: '../fonts/Open_Sans/OpenSans-Bold.tff'
+}
+
+h2 {
+    font-family: 'Open Sans Bold'
+}
+
+body {
+    max-width: 50%;
+    margin: auto;
+    background-color: #e2dccd;
+    color: #3290a8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+}
+
+:link {
+    text-decoration-color: #effc00;
+    text-decoration-style: wavy;
+}
+
+:visited {
+    text-decoration-color: white;
+    text-decoration-style: wavy;
+
+}
+
+.footer {
+    max-width: 50%;
+    margin: auto;
+}
+
+.socials {
+    max-width: 50%;
+    margin: auto;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
