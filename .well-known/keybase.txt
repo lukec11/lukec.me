@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/lukec1
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lukec.me
+  * I am lukec1 (https://keybase.io/lukec1) on keybase.
+  * I have a public key with fingerprint B9A4 2C39 7318 9665 D944  485C 8BB9 C724 0474 C8E4
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01201b446bf47bef51feb971f0d7383b517e196274bb156caf467eb0bd7ae10b1c6c0a",
+      "fingerprint": "b9a42c3973189665d944485c8bb9c7240474c8e4",
+      "host": "keybase.io",
+      "key_id": "8bb9c7240474c8e4",
+      "kid": "0101dbeb440089a69696981b871b2f9fa9f813bf4850f41be83d15d50fe4b9e55bcd0a",
+      "uid": "abe2799752dbe6ddda6f3d0a63259019",
+      "username": "lukec1"
+    },
+    "service": {
+      "hostname": "lukec.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1574908661,
+  "expire_in": 157680000,
+  "prev": "9397e45bf0e62e594adc28c2d27a288f4f7e4022c5427ea7f5735058e2a28c7f",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMNqAnicbVJtUFRVGF5YMWHcYS0JExW76Yiws957936dZVRQ0CGHySJBWGK9595z
+2Qu0y36wQIhlH4JCMYk5DOFYa0bRNEaULkWNgEaETkOGNKMGmgHaNAEOToALnWVy
+ph+d8+Oc932f5znP+865oNNqIkJq2nvWLfJ8fzukr/NoieaFIXqqgoAOuZwwVxCF
+aOFARTJye6yFqkyYCZKiSQoyDAcVhodIYSkFQcBTCinzJsEEWYpHFOBonoGQYjlJ
+VBiOR5CEMi8iioSUxEmkSBgIRbXnI1exS7V7sCwEIkNLJsCbKAFwHCsDhmEEVhIg
+BBJPMyTDM5KAGEy0OdxBBjYHRTcyqg6cw4F1wd7/4B/6JikZIuycJAUgciC4BQoK
+PAVpBSgiUATKhJsSWFJhKIgEk0yxMg4QAwFiWSjJC75LFuREiGgeAJ6lsSgny7LI
+KSYM4Ew0C0gKBIFu5LKLLyKMLiopRBJFVBoInPOqEgqONdjHf+tGfDUQxS6HxyE5
+inDW5vEUu81Blqe8OAgrRdD6r4AVqnYZTxAzvMjlVh12wkxhpORRg4oUyzOAFDiO
+MhCorFh1IatqX0hzAolX8B3kxZIAjxwxLFRIxNGIBYwoS7Qg0TLNi7QgKIyCyyRN
+SyxD80jkFZY3sSQrIBqXJV4hgi057Q6sDbBPMR9rutV8u+gpcSGisqszd5EmJEKz
+OCw0+LU0EeH6hx8OrY8M6G/o9iR1DUezljV/ZrbtaJjZvi9lYPzX49byd8/djD30
+w5JKavNZfQqcrfi7I3bt+CNxazXmXe07Oy67K3+xak+nRrWlJ+6enbBs1R7fFVh5
+ZuDH54ZWFdyLTu1I0Ecm5uyfGi2rm27NbqzPCoy2rW7peMVoqTrv7GEsEcMb5p+q
+/Tzxr3V9t335Ve+tAB/VZ1RrbVfntU/+bvj5iinZ//x1Y/tZ69MJhrCPLRcN8z10
+5NqCmE97aszapKyNaaG57Y99uZJGX+c2xYfuu/SVS1rez60o68xoTvFS1svZIb7B
+C3k6ZjL5yMHRO3W16lvKrWXwxIlO8GZBwHT41dzXZ3ZkeQfr39/6TKFfZ+vPyRid
+8/mEB9lFYxfTp2LvbG403tp0iG0IT5gYtGzauK0vmhz77EF3TLJrr6PDqdmePFcd
+puyPuvtJ9P1zT1S5T46PXOvp9nFS9+LGqCNO46qrQ/FdeWz6RINuOpKd3fnsJPjj
+ruWUHnqbQ7alZ8btSfUvLYjxJ5X0+s+vPxA4/UXObO2Yb/mWnwqNSU2BD0jXzdda
+J3Ujx/wfpl2qu9b8tmR7YzXxzjHnqTa7P636oG4YjNz75vHd4ba+uaa4/jM1Ly/T
+rnlpw4Hi1qNbWGVvZh66PxF3ZWhm+reIG/nf9g601KTGO3u5IW2pvjrvu6glpZHh
+j568Pre0Zeof10C5MA==
+=vV37
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lukec1
+
+==================================================================
