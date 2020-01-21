@@ -24,17 +24,14 @@ body {
 
 :link {
     text-decoration-color: #85203b;
-    text-decoration-style: wavy;
+    text-decoration-style: solid;
     text-decoration-skip: none;
-    
 }
 
 :visited {
     text-decoration-color: #2a0a13;
-    text-decoration-style: wavy;
+    text-decoration-style: solid;
     text-decoration-skip: none;
-    
-
 }
 
 .footer {
