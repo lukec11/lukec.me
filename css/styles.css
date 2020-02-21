@@ -15,12 +15,39 @@ h2 {
 body {
     max-width: 50%;
     margin: auto;
-    background-color: #e2f3f5;
+    background-color: #caf4f8;
     color: #0e153a;
     font-family: 'Open Sans', sans-serif;
     font-size: 150%;
 }
 
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+    min-height:200px;
+    resize: none;
+    overflow: scroll;
+}
+
+textarea::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.container::-webkit-scrollbar { /* WebKit */
+    width: 0px;
+  }
+
+
+.comment {
+    resize: none;
+    overflow: none;
+}
+
+code {
+    background-color: coral;
+}
 
 :link {
     text-decoration-color: #85203b;
@@ -42,6 +69,7 @@ body {
 .socials {
     max-width: 50%;
     margin: auto;
+    text-decoration: none;
 }
 
 .fa {
