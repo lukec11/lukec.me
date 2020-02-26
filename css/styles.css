@@ -1,11 +1,13 @@
 /* Custom Fonts */
 @font-face { 
     font-family: 'Open Sans';
-     src: '../fonts/Open_Sans/OpenSans-Regular.tff' 
+     src: '../fonts/Open_Sans/OpenSans-Regular.tff';
+     font-display: swap;
     }
 @font-face {
     font-family: 'Open Sans Bold';
-    src: '../fonts/Open_Sans/OpenSans-Bold.tff'
+    src: '../fonts/Open_Sans/OpenSans-Bold.tff';
+    font-display: swap;
 }
 
 h2 {
