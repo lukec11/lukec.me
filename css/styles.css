@@ -81,3 +81,7 @@ code {
     text-align: center;
     text-decoration: none;
   }
+
+.command {
+    font-size: 20px;
+}
