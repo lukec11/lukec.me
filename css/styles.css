@@ -1,87 +1,87 @@
 /* Custom Fonts */
-@font-face { 
-    font-family: 'Open Sans';
-     src: '../fonts/Open_Sans/OpenSans-Regular.tff';
-     font-display: swap;
-    }
 @font-face {
-    font-family: 'Open Sans Bold';
-    src: '../fonts/Open_Sans/OpenSans-Bold.tff';
-    font-display: swap;
+	font-family: 'Open Sans';
+	src: '../fonts/Open_Sans/OpenSans-Regular.tff';
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Open Sans Bold';
+	src: '../fonts/Open_Sans/OpenSans-Bold.tff';
+	font-display: swap;
 }
 
 h2 {
-    font-family: 'Open Sans Bold'
+	font-family: 'Open Sans Bold';
 }
 
 body {
-    max-width: 50%;
-    margin: auto;
-    background-color: #caf4f8;
-    color: #0e153a;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 150%;
+	max-width: 50%;
+	margin: auto;
+	background-color: #c4dfe2;
+	color: #0e153a;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 150%;
 }
 
 textarea {
-    min-width: 100%;
-    max-width: 100%;
-    max-height: 200px;
-    min-height:200px;
-    resize: none;
-    overflow: scroll;
+	min-width: 100%;
+	max-width: 100%;
+	max-height: 200px;
+	min-height: 200px;
+	resize: none;
+	overflow: scroll;
 }
 
 textarea::-webkit-scrollbar {
-    width: 0px;
-    background: transparent; /* make scrollbar transparent */
+	width: 0px;
+	background: transparent; /* make scrollbar transparent */
 }
 
-.container::-webkit-scrollbar { /* WebKit */
-    width: 0px;
-  }
-
+.container::-webkit-scrollbar {
+	/* WebKit */
+	width: 0px;
+}
 
 .comment {
-    resize: none;
-    overflow: none;
+	resize: none;
+	overflow: none;
 }
 
 code {
-    background-color: coral;
+	background-color: coral;
 }
 
 :link {
-    text-decoration-color: #85203b;
-    text-decoration-style: solid;
-    text-decoration-skip: none;
+	text-decoration-color: #85203b;
+	text-decoration-style: solid;
+	text-decoration-skip: none;
 }
 
 :visited {
-    text-decoration-color: #2a0a13;
-    text-decoration-style: solid;
-    text-decoration-skip: none;
+	text-decoration-color: #2a0a13;
+	text-decoration-style: solid;
+	text-decoration-skip: none;
 }
 
 .footer {
-    max-width: 50%;
-    margin: auto;
+	max-width: 50%;
+	margin: auto;
 }
 
 .socials {
-    max-width: 50%;
-    margin: auto;
-    text-decoration: none;
+	max-width: 50%;
+	margin: auto;
+	text-decoration: none;
 }
 
 .fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
+	padding: 10px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+}
 
 .command {
-    font-size: 20px;
+	font-size: 20px;
 }
