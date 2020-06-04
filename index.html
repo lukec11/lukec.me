@@ -22,7 +22,11 @@
         </p>
 
         <p>
-            I also co-lead Westborough High School's Lincoln-Douglas debate team.
+            I'm passionate about the importance of debate - I co-lead Westborough High School's Lincoln-Douglas debate team.
+        </p>
+
+        <p>
+            The <a href="https://github.com/lukec11/lastfm-latest-song">most recent song</a> I listened to was <b id="song"></b> by <b id="artist"></b>.
         </p>
 
         <p>
@@ -44,6 +48,15 @@
             <center>Written by <a href="mailto:me@lukec.me">Luke Carapezza</a>, 2020. <a href="https://github.com/lukec11/lukec.me">Source</a> is available under GPL.</center>
         </footer>
 
+        <script>
+            let getSong = async () => {
+                res = await fetch('https://lastfm.cap.lukec.me/latest?user=lc11625');
+                songInfo = await res.json();
+                document.getElementById('song').innerHTML = songInfo.song
+                document.getElementById('artist').innerHTML = songInfo.artist
+            }
+            getSong()
+        </script>
     </body>
     
 </html>
