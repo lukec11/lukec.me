@@ -9,32 +9,24 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
         <meta name="google-site-verification" content="cSOaH4cw_meQeIVAs-2CYSn73JovPJ9lAFjZWNLNtCI" />
     </head>
-
     <body>
-        
+        <img src="assets/img/luke_pizza.jpg">
         <h2 class="me">Hi, I'm Luke.</h2 class="me">
-
         <h3>I'm a high school junior, Lincoln-Douglas debater, and software developer from Massachusetts.</h3>
-
         <p>I co-lead <a href="https://whs.hackclub.com" class="move">Westborough Hack Club</a>, an initiative designed to help students enjoy coding
             as more than just a class period with all work and no fun. I'm also a director for 
             <a href="https://westboroughhacks.com">Westborough Hacks</a>, a hackathon designed to expand people's knowledge
             of coding and why it's important.
         </p>
-
         <p>
             I'm passionate about the importance of debate - I've been participating since freshman year, and I currently co-lead Westborough High School's Lincoln-Douglas debate team.
         </p>
-
         <p>
             The <a href="https://github.com/lukec11/lastfm-latest-song">most recent song</a> I listened to was <b id="song"></b> by <b id="artist"></b>.
         </p>
-
         <p>
             Please reach out to me <a href="mailto:me@lukec.me"> via email</a>, or find me on any of the platforms linked below!
         </p>
-
-
         <div class="socials">
             <center>
                 <a href="mailto:me@lukec.me" class="fa fa-envelope"></a>
@@ -43,13 +35,11 @@
                 <a href="https://www.linkedin.com/in/luke-carapezza-004131191/" class="fa fa-linkedin"></a>
             </center> 
         </div>
-
         <footer>
             <br><br>
             <center>Written by <a href="mailto:me@lukec.me">Luke Carapezza</a>, 2020.<br>
             <a href="https://github.com/lukec11/lukec.me">Source</a> available under GPL.</center>
         </footer>
-
         <script>
             let getSong = async () => {
                 res = await fetch('https://lastfm.cap.lukec.me/latest?user=lc11625');
@@ -60,5 +50,4 @@
             getSong()
         </script>
     </body>
-    
 </html>
