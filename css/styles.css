@@ -1,7 +1,14 @@
 :root {
-	--color-primary: #004d61;
-	--color-secodary: #ff502f;
-	--color-bg: #fff;
+    --color-primary: #d4d0c8;
+    --color-secondary: #ff502f;
+    --color-bg: #2b2d2e;
+}
+@media(prefers-color-scheme: light) {
+    :root {
+	    --color-primary: #004d61;
+	    --color-secodary: #ff502f;
+	    --color-bg: #fff;
+    }
 }
 
 /* Custom Fonts */
@@ -59,7 +66,7 @@ code {
 }
 
 a, :visited {
-	color: var(--color-secodary);
+	color: var(--color-secondary);
 	text-decoration: none;
 }
 
