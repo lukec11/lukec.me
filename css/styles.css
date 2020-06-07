@@ -89,6 +89,6 @@ code {
 
 @media (max-width: 700px) {
 	body {
-		max-width: auto;
+		max-width: none;
 	}
 }
