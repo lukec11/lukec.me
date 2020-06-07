@@ -1,3 +1,9 @@
+:root {
+	--color-primary: #004d61;
+	--color-secodary: #ff502f;
+	--color-bg: #fff;
+}
+
 /* Custom Fonts */
 @font-face {
 	font-family: 'Open Sans';
@@ -15,8 +21,8 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	max-width: 50%;
 	margin: auto;
-	background-color: #c0c2c3;
-	color: #0e153a;
+	background-color: var(--color-bg);
+	color: var(--color-primary);
 	font-size: 150%;
 }
 
@@ -52,16 +58,9 @@ code {
 	background-color: coral;
 }
 
-:link {
-	text-decoration-color: #85203b;
-	text-decoration-style: solid;
-	text-decoration-skip: none;
-}
-
-:visited {
-	text-decoration-color: #2a0a13;
-	text-decoration-style: solid;
-	text-decoration-skip: none;
+a, :visited {
+	color: var(--color-secodary);
+	text-decoration: none;
 }
 
 .footer {
