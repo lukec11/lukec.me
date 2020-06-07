@@ -10,17 +10,18 @@
 	font-display: swap;
 }
 
-h2 {
-	font-family: 'Open Sans Bold';
-}
 
 body {
+	font-family: 'Montserrat', sans-serif;
 	max-width: 50%;
 	margin: auto;
 	background-color: #c0c2c3;
 	color: #0e153a;
-	font-family: 'Open Sans', sans-serif;
 	font-size: 150%;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
 }
 
 textarea {
