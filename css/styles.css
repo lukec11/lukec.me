@@ -1,14 +1,14 @@
 :root {
-    --color-primary: #d4d0c8;
-    --color-secondary: #ff502f;
-    --color-bg: #2b2d2e;
+	--color-primary: #d4d0c8;
+	--color-secondary: #ff502f;
+	--color-bg: #2b2d2e;
 }
-@media(prefers-color-scheme: light) {
-    :root {
-	    --color-primary: #004d61;
-	    --color-secodary: #ff502f;
-	    --color-bg: #fff;
-    }
+@media (prefers-color-scheme: light) {
+	:root {
+		--color-primary: #004d61;
+		--color-secodary: #ff502f;
+		--color-bg: #fff;
+	}
 }
 
 /* Custom Fonts */
@@ -22,7 +22,6 @@
 	src: '../fonts/Open_Sans/OpenSans-Bold.tff';
 	font-display: swap;
 }
-
 
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -65,7 +64,8 @@ code {
 	background-color: coral;
 }
 
-a, :visited {
+a,
+:visited {
 	color: var(--color-secondary);
 	text-decoration: none;
 }
@@ -91,6 +91,12 @@ a, :visited {
 
 .command {
 	font-size: 20px;
+}
+
+.smalltext {
+	font-size: 16px;
+	color: #565e63;
+	color: var(--color-secondary);
 }
 
 @media (max-width: 700px) {
