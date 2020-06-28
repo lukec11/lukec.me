@@ -52,7 +52,7 @@
 
         <script>
             let getSong = async () => {
-                res = await fetch('https://lastfm.cap.lukec.me/latest?user=lc11625');
+                res = await fetch('https://last.lukec.me/latest?user=lc11625');
                 songInfo = await res.json();
                 document.getElementById('song').innerHTML = songInfo.song
                 document.getElementById('artist').innerHTML = songInfo.artist
