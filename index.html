@@ -53,7 +53,7 @@
 
         <script>
             let getSong = async () => {
-                res = await fetch('https://last.luke.run/api');
+                res = await fetch('https://last.luke.run/api?user=lc11625');
                 songInfo = await res.json();
                 document.getElementById('song').innerHTML = songInfo.song;
                 document.getElementById('artist').innerHTML = songInfo.artist;
